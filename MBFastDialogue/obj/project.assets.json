@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "Lib.Harmony/2.0.0.9": {
+      "Lib.Harmony/2.0.1": {
         "type": "package",
         "compile": {
           "lib/net45/0Harmony.dll": {}
@@ -38,16 +38,16 @@
     }
   },
   "libraries": {
-    "Lib.Harmony/2.0.0.9": {
-      "sha512": "0/5K5p/jkulE5GoFeKk+/YIRt0SLEKDCXhgVs6sVXJKHkTG2iRssNFnUkcnEFr78FwRCW37JSNXynCWZNtoxWA==",
+    "Lib.Harmony/2.0.1": {
+      "sha512": "TzITdGzVpADlLTFusBiqzZErhpJKlr/Cky62WdjX7VJJJoq5EcUpj/RIW2IJNfUAINX7mTDcg7Ym0SPO6j4DXQ==",
       "type": "package",
-      "path": "lib.harmony/2.0.0.9",
+      "path": "lib.harmony/2.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "HarmonyLogo.png",
         "LICENSE",
-        "lib.harmony.2.0.0.9.nupkg.sha512",
+        "lib.harmony.2.0.1.nupkg.sha512",
         "lib.harmony.nuspec",
         "lib/net35/0Harmony.dll",
         "lib/net35/0Harmony.xml",
@@ -210,25 +210,32 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Lib.Harmony >= 2.0.0.9",
+      "Lib.Harmony >= 2.0.1",
       "NETStandard.Library >= 2.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dallen\\.nuget\\packages\\": {}
+    "C:\\Users\\Liam\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dallen\\source\\repos\\MBFastDialogue\\MBFastDialogue\\MBFastDialogue.csproj",
+      "projectUniqueName": "C:\\Users\\Liam\\source\\repos\\MBFastDialogue\\MBFastDialogue\\MBFastDialogue.csproj",
       "projectName": "MBFastDialogue",
-      "projectPath": "C:\\Users\\Dallen\\source\\repos\\MBFastDialogue\\MBFastDialogue\\MBFastDialogue.csproj",
-      "packagesPath": "C:\\Users\\Dallen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dallen\\source\\repos\\MBFastDialogue\\MBFastDialogue\\obj\\",
+      "projectPath": "C:\\Users\\Liam\\source\\repos\\MBFastDialogue\\MBFastDialogue\\MBFastDialogue.csproj",
+      "packagesPath": "C:\\Users\\Liam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Liam\\source\\repos\\MBFastDialogue\\MBFastDialogue\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Dallen\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Liam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -253,7 +260,7 @@
         "dependencies": {
           "Lib.Harmony": {
             "target": "Package",
-            "version": "[2.0.0.9, )"
+            "version": "[2.0.1, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",
@@ -272,7 +279,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -281,7 +288,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Lib.Harmony 2.0.0.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "message": "Package 'Lib.Harmony 2.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
       "libraryId": "Lib.Harmony",
       "targetGraphs": [
         ".NETStandard,Version=v2.0"
